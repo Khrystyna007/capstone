@@ -1,4 +1,8 @@
 /* Universal Styles */
+html{
+  font-family: Helvetica;
+  font-size: 18px;
+}
 body{
   margin: 0;
 }
@@ -6,25 +10,40 @@ body{
 /* Header */
 ul{
   list-style-type: none;
-  border: 1px solid blue;
-  display: inline-block;
 }
 li{
-  border: 1px solid green;
+  display: inline;
+  margin-right: 1.5em;
+  font-weight: lighter;
 }
 header{
- background-color: #c7d5ed;
- border: 1px solid green;
+ display: flex;
+ align-items: center;
+ max-height: 4em;
+ padding-left: 1.5em;
+ border: 1px solid black; 
 }
 header img{
-  border: 1px solid red;
+  height: 3em;
 }
 #colmar{
-
+color: #414449;
+padding-left: 0.5em;
+font-weight: bold;
 }
 #academy{
-
+flex-grow: 1;
+font-weight: lighter;
 }
-header span{
-  border: 1px solid pink;
+#colmar, #academy{
+  font-size: 1.2rem;
+}
+/* Grey Font */
+
+li, #academy{
+  color: #a1a7af;
+}
+
+header li:hover{
+  text-decoration: underline;
 }
