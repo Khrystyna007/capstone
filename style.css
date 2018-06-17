@@ -1,0 +1,30 @@
+/* Universal Styles */
+body{
+  margin: 0;
+}
+
+/* Header */
+ul{
+  list-style-type: none;
+  border: 1px solid blue;
+  display: inline-block;
+}
+li{
+  border: 1px solid green;
+}
+header{
+ background-color: #c7d5ed;
+ border: 1px solid green;
+}
+header img{
+  border: 1px solid red;
+}
+#colmar{
+
+}
+#academy{
+
+}
+header span{
+  border: 1px solid pink;
+}
