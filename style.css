@@ -58,7 +58,7 @@ header li:hover{
   margin: 0 auto;
 }
 .banner-text{
-  border: 1px solid green;
+  border: 1px solid blue;
   max-width: 70%;
 }
 .button{
@@ -81,12 +81,12 @@ h1, h2{
 h5{
 }
 .banner-container{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    max-width: 35%;
-    align-items: center;
-    justify-content: center;
+ display: flex;
+ flex-direction: column;
+ border: 1px solid black;
+ max-width: 35%;
+ align-items: center;
+ justify-content: center;
 }
 
 
