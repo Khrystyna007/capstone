@@ -1,4 +1,5 @@
 /* Universal Styles */
+
 html{
   font-family: Helvetica;
   font-size: 18px;
@@ -21,7 +22,7 @@ header{
  align-items: center;
  max-height: 4em;
  padding-left: 1.5em;
- border: 1px solid black; 
+ border: 1px solid black;
 }
 header img{
   height: 3em;
@@ -43,7 +44,58 @@ font-weight: lighter;
 li, #academy{
   color: #a1a7af;
 }
+/* Animations */
 
 header li:hover{
   text-decoration: underline;
 }
+/* Banner */
+
+.banner{
+  display: flex;
+  border: 1px solid orange;
+  background-color: #d3d9e2;
+  margin: 0 auto;
+}
+.banner-text{
+  border: 1px solid green;
+  max-width: 70%;
+}
+.button{
+  border: 1px solid violet;
+  background-color: grey;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 70%;
+  text-align: center;
+}
+.banner img{
+ max-width: 60%;
+ height: 25rem;
+ margin: 32px 24px;
+}
+h1, h2{
+  display: inline;
+}
+h5{
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
